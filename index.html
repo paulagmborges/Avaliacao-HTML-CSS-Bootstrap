@@ -6,12 +6,23 @@
     <title>Fio encantado</title>
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="libs/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-light navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Fio encantado</a>
+          <img
+            src="./assets/header_image/Preview2.jpg"
+            class="img-navbar rounded-circle img-thumbnail"
+            alt="Logo da loja Fio encantado"
+          />
+          <a class="navbar-brand fw-bold" href="#">Fio encantado</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -29,15 +40,22 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="nav-link active fw-normal"
+                  aria-current="page"
+                  href="#sobre"
                   >Sobre</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Produtos</a>
+                <a class="nav-link fw-normal" href="#nossos-produtos"
+                  >Produtos</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Outros serviços</a>
+                <a class="nav-link fw-normal" href="#nossos-diferenciais"
+                  >Nossos diferenciais</a
+                >
               </li>
             </ul>
           </div>
@@ -103,17 +121,18 @@
         </div>
       </section>
 
-      <section id="outra-secao" class="mt-5">
+      <section id="sobre" class="mt-5">
         <div class="container px-1">
           <div class="row align-items-center">
             <div class="col-md-6">
-              <h2>Como Tudo Começou ...</h2>
-              <p>
-                A Fio encantado nasceu da inspiração em um dia chuvoso no Rio,
-                ao transformar um simples fio em um pequeno coelho de crochê. O
-                que começou como um hobby para amigos e família, motivado pela
-                alegria que as peças traziam, logo se tornou um negócio para
-                compartilhar essa arte e afeto com mais pessoas.
+              <h2 class="fw-bold lh-1">Como Tudo Começou...</h2>
+              <p class="">
+                A <span>Fio Encantado</span> nasceu da inspiração em um dia
+                chuvoso no Rio, ao transformar um simples fio em um pequeno
+                coelho de crochê. O que começou como um hobby para amigos e
+                família, motivado pela alegria que as peças traziam, logo se
+                tornou um negócio para compartilhar essa arte e afeto com mais
+                pessoas.
               </p>
             </div>
 
@@ -121,11 +140,95 @@
               <img
                 src="./assets/service_image/image1.jpg"
                 class="img-fluid rounded"
-                alt="Mulher artesã tecendo amigurumi em um ambiente aconchegante."
+                alt="imagem da seção sobre a loja Fio encantado"
               />
             </div>
           </div>
         </div>
+      </section>
+      <section id="nossos-produtos" class="mt-5">
+        <div class="container px-1">
+          <h2 class="text-center mb-4 fw-bold lh-1">
+            Nossos Produtos em Destaque
+          </h2>
+          <div
+            class="cards row row-cols-1 row-cols-md-4 g-4 justify-content-center"
+          >
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./assets/product_image/coelho.jpg"
+                  class="card-img-top"
+                  alt="Amigurumi de uma coelho."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Coelho Curioso</h5>
+                  <p class="card-text text-center">
+                    Perfeita para abraçar, este coelho é feito com fios macios e
+                    olhos curiosos, pronta para novas aventuras.
+                  </p>
+                  <a href="#" class="btn py-3 px-2 mt-3">Ver Detalhes</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./assets/product_image/meninaMorena.jpg"
+                  class="card-img-top"
+                  alt="Amigurumi de um coelho branco com detalhes em rosa."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Menina Sonhadora</h5>
+                  <p class="card-text text-center">
+                    Uma pequena sonhadora com um vestido encantador, pronta para
+                    ser a companheira perfeita para qualquer criança.
+                  </p>
+                  <a href="#" class="btn py-3 px-2 mt-3">Ver Detalhes</a>
+                </div>
+              </div>
+            </div>
+            <div class="cards col">
+              <div class="card h-100">
+                <img
+                  src="./assets/product_image/meninaRuiva.jpg"
+                  class="card-img-top"
+                  alt="Amigurumi de um coelho branco com detalhes em rosa."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Menina Aventureira</h5>
+                  <p class="card-text">
+                    Uma pequena ruiva com um vestido encantador, pronta para ser
+                    a companheira perfeita para qualquer criança.
+                  </p>
+                  <a href="#" class="btn py-3 px-2 mt-3">Ver Detalhes</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./assets/product_image/urso.jpg"
+                  class="card-img-top"
+                  alt="Amigurumi de um pequeno urso marrom segurando um coração."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Ursinho Carinhoso</h5>
+                  <p class="card-text">
+                    Um presente cheio de afeto, este ursinho é ideal para
+                    demonstrar carinho em qualquer ocasião especial.
+                  </p>
+                  <a href="#" class="btn py-3 px-2 mt-3">Ver Detalhes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>proxima secao</h2>
       </section>
     </main>
     <footer></footer>

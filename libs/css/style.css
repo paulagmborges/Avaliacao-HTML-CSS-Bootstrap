@@ -1,0 +1,81 @@
+:root {
+    --cor-fundo-principal: #EAE6E1;
+    --cor-azul-suave: #A4C9CE;
+    --cor-rosa-pessego-suave: #DBC5BD;
+    --cor-verde-acinzentado: #898F80;
+    --cor-marrom-escuro: #594E48;
+}
+*{
+    font-family: 'Inter', sans-serif;
+}
+body {
+background-color: var(--cor-fundo-principal); 
+color: var(--cor-marrom-escuro); 
+
+}
+
+.navbar {
+    background-color: var(--cor-azul-suave) !important; 
+    font-family: 'Inter', sans-serif;
+}
+.navbar-brand {
+color: var(--cor-marrom-escuro) !important;
+font-size: 46.9px;
+
+}
+.nav-link {
+    font-family: 'Inter', sans-serif; 
+    font-size: 28.8px; 
+    color: var(--cor-marrom-escuro) !important; 
+    padding-left: 1.5rem !important; 
+    padding-right: 1.5rem !important;
+}
+
+.img-navbar { 
+    height: 50px; 
+    width: auto; 
+    margin-right: 10px; 
+    object-fit: cover;
+}
+.navbar-toggler-icon {
+filter: invert(30%) sepia(10%) saturate(1400%) hue-rotate(345deg) brightness(90%) contrast(80%); 
+}
+h2{
+    font-size: 46.9px;
+    
+}
+p{
+    font-size: 28px;
+}
+span {
+    color: var(--cor-marrom-escuro);
+    font-weight: bold;
+}
+.card-text{
+    font-size: 15.35px;
+    width: 305.12px;
+    height: 76px;
+   
+}
+
+.card{
+    width: 331px;
+    height: 452px;
+    
+}
+
+.btn { 
+background-color: var(--cor-rosa-pessego-suave);
+color: var(--cor-marrom-escuro);
+border-color: var(--cor-rosa-pessego-suave);
+font-size: 20px;
+
+}.btn:hover{
+background-color: var(--cor-verde-acinzentado);
+color: var(--cor-marrom-escuro);
+border-color: var(--cor-verde-acinzentado);
+}
+
+      
+
+        
