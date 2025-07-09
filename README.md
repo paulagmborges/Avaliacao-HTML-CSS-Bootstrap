@@ -65,7 +65,7 @@ O projeto será aberto no seu navegador e você poderá interagir com a Landing 
 │   └── bootstrap/               # Pasta raiz do Bootstrap
 │       ├── css/                 # CSS do Bootstrap 
 │       │   └── bootstrap.min.css
-│       └── js/                  # JavaScript do Bootstrap (tudo em minúsculas)
+│       └── js/                  # JavaScript do Bootstrap
 │           └── bootstrap.bundle.min.js
 └── README.md                    # Seu arquivo de documentação do projeto
 ```
