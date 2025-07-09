@@ -16,8 +16,8 @@ overflow-x: hidden;
 }
 
 .navbar {
-    background-color: var(--cor-azul-suave) !important; 
-    font-family: 'Inter', sans-serif;
+background-color: var(--cor-azul-suave) !important; 
+
 }
 
 .navbar-brand {
@@ -43,33 +43,33 @@ font-size: 46.9px;
 filter: invert(30%) sepia(10%) saturate(1400%) hue-rotate(345deg) brightness(90%) contrast(80%); 
 }
 h2{
-    font-size: 46.9px;
+font-size: 46.9px;
    
 }
 p{
-    font-size: 28px;
+font-size: 28px;
 }
 span {
-    color: var(--cor-marrom-escuro);
-    font-weight: bold;
+color: var(--cor-marrom-escuro);
+
 }
 .card-text{
-    font-size: 15.35px; 
-    max-width: 100%;
-    height: auto;
-    color: var(--cor-marrom-escuro);
+font-size: 15.35px; 
+max-width: 100%;
+height: auto;
+color: var(--cor-marrom-escuro);
    
 }
 
 .card{
-    max-width: 100%;
-    height: auto px;
+max-width: 100%;
+height: auto ;
     
 }
 .card:hover{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transform: scale(1.02);
-    transition: transform 0.3s ease-in-out;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+transform: scale(1.02);
+transition: transform 0.3s ease-in-out;
 }
 
 .btn { 
@@ -101,7 +101,7 @@ border-color: var(--cor-verde-acinzentado);
 }
 footer{
     width: 100%;
-    height: 266px;
+    min-height: 266px;
     background-color: var(--cor-azul-suave);
     color: var(--cor-marrom-escuro);  
 }
@@ -124,13 +124,14 @@ footer p {
 @media (max-width: 576px) {
   .diferencial-mobile {         
     width: 235px;               
-
+}
   .diferencial-mobile.rounded-circle {
     width: 231px;               
     height: 231px;              
     padding: 1rem;              
 }
-  }}
+  }
+
 @media (max-width: 576px) {
   #mobile-footer .container {
     flex-direction: column !important;     
@@ -138,4 +139,27 @@ footer p {
     text-align: center;                    
     gap: 1.5rem;                            
   }
+}
+
+.main-gap  {
+  gap: 100px ; 
+}
+
+@media (min-width: 768px) {
+  .main-gap {
+    gap: 160px ; 
+  }
+}
+
+.body-gap {
+  gap: 100px;
+}
+
+@media (min-width: 768px) {
+  .body-gap {
+    gap: 160px;
+  }
+}
+.logo{
+    background-color:#EAE6E1;
 }
