@@ -57,15 +57,18 @@ O projeto será aberto no seu navegador e você poderá interagir com a Landing 
 
 ```
 ├── [Avaliação-HTML-CSS-Bootsrtap]/
-│   ├── index.html                 # Página principal da aplicação
-│   ├── css/                       # Diretório para arquivos CSS
-│   │   └── style.css              # Seu CSS personalizado
-│   ├── js/                        # Diretório para arquivos JavaScript
-│   │   └── script.js              # Seu JavaScript personalizado
-│   ├── assets/                    # Diretório para mídias estáticas
-│   │   ├── images/                # Imagens utilizadas na página
-│   │                      
-│   └── README.md                  # Este arquivo de documentação
+├── index.html                   # Sua página HTML principal
+├── css/                         # Diretório para SEUS arquivos CSS personalizados
+│   └── style.css                # Seu CSS personalizado 
+├── assets/                      # Diretório para SUAS mídias estáticas
+│   ├── images/                  # Suas Imagens (MOVIDAS PARA AQUI)
+├── libs/                        # Diretório para BIBLIOTECAS EXTERNAS (tudo em minúsculas)
+│   └── bootstrap/               # Pasta raiz do Bootstrap
+│       ├── css/                 # CSS do Bootstrap (tudo em minúsculas)
+│       │   └── bootstrap.min.css
+│       └── js/                  # JavaScript do Bootstrap (tudo em minúsculas)
+│           └── bootstrap.bundle.min.js
+└── README.md                    # Seu arquivo de documentação do projeto
 ```
 ---
 ![Texto Alternativo da Imagem](./assets/image-readme/image1.png)
