@@ -71,6 +71,7 @@ O projeto será aberto no seu navegador e você poderá interagir com a Landing 
 ```
 ---
 ![Texto Alternativo da Imagem](./assets/image-readme/image1.png)
+![Texto Alternativo da Imagem](./assets/image-readme/image1.2.png)
 ![Texto Alternativo da Imagem](./assets/image-readme/image2.png)
 ![Texto Alternativo da Imagem](./assets/image-readme/image3.png)
 ---
