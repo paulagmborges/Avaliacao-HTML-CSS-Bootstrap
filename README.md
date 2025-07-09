@@ -1,4 +1,4 @@
-# 🧶 Fio Encantado - Onde a Magia do Amigurumi Ganha Vida! 💖
+# 🧶 Fio Encantado - Onde a magia do Amigurumi aanha vida! 
 
 ---
 
