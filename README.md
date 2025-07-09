@@ -58,13 +58,12 @@ O projeto será aberto no seu navegador e você poderá interagir com a Landing 
 ```
 ├── [Avaliação-HTML-CSS-Bootsrtap]/
 ├── index.html                   # Sua página HTML principal
-├── css/                         # Diretório para SEUS arquivos CSS personalizados
-│   └── style.css                # Seu CSS personalizado 
-├── assets/                      # Diretório para SUAS mídias estáticas
-│   ├── images/                  # Suas Imagens (MOVIDAS PARA AQUI)
-├── libs/                        # Diretório para BIBLIOTECAS EXTERNAS (tudo em minúsculas)
+├── css/                         # Diretório seus arquivos CSS 
+├── assets/                      # Mídias estáticas
+│   ├── images/                  # Imagens 
+├── libs/                        # Diretório para BIBLIOTECAS EXTERNAS 
 │   └── bootstrap/               # Pasta raiz do Bootstrap
-│       ├── css/                 # CSS do Bootstrap (tudo em minúsculas)
+│       ├── css/                 # CSS do Bootstrap 
 │       │   └── bootstrap.min.css
 │       └── js/                  # JavaScript do Bootstrap (tudo em minúsculas)
 │           └── bootstrap.bundle.min.js
