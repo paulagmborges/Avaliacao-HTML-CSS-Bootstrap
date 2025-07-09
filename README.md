@@ -68,9 +68,9 @@ O projeto será aberto no seu navegador e você poderá interagir com a Landing 
 │   └── README.md                  # Este arquivo de documentação
 ```
 ---
-![Texto Alternativo da Imagem](./image/Captura%20de%20tela%202025-07-08%20221807.png)
-![Texto Alternativo da Imagem](./image/Captura%20de%20tela%202025-07-08%20221822.png)
-![Texto Alternativo da Imagem](./image/Captura%20de%20tela%202025-07-08%20221840.png)
+![Texto Alternativo da Imagem](./assets/image-readme/image1.png)
+![Texto Alternativo da Imagem](./assets/image-readme/image2.png)
+![Texto Alternativo da Imagem](./assets/image-readme/image3.png)
 ---
 
 ## Desenvolvido Por 👩‍💻
